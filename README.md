@@ -14,3 +14,10 @@ if you add a new library please add it to requirements.txt with that command
 ```bash
 pip3 freeze > requirements.txt
 ```
+if it is your first time with nltk, while venv is activated open python3 in interactive mode and run following commands:
+```
+import nltk
+nltk.download()
+
+```
+This will pop-up a new window, download all resources and packages that you need.
